@@ -1,0 +1,91 @@
+:root {
+    --font1: "Open Sans", sans-serif;
+    --color_black: black;
+    --color_accent: #ff0e00ff;
+    --color_gray: #cccccc;
+    --color_white: white;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: var(--font1);
+    list-style-type: none;
+}
+header section img{
+    width: 120px;
+    height: 55px;
+}
+header section{
+    padding: 15px 30px 20px 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+header section .menu nav ul{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px 0;
+    cursor: pointer;
+}
+header section .menu nav ul li:hover{
+    color: red;
+    transition: all 0.2s ease;
+}
+main .safety{
+    height: 800px;
+    background-size: cover;
+    background-image: url(/img/ferrari.png);
+}
+main .safety h1{
+    padding-top: 6vh;
+    text-align: center;
+    font-size: 50px;
+}
+main .safety .about h1 span{
+    font-size: 50px;
+    background-color: var(--color_accent);
+}
+main .safety .about p{
+    padding: 4vh 0;
+    padding-left: 500px;
+    padding-right: 500px;
+}
+main .reasons-items{
+    height: 800px;
+    padding-top: 6vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+} 
+main .reasons-items .reasons h3{
+    color: red;
+    text-align: center;
+    font-size: 30px;
+}
+main .reasons-items .reasons p{
+    color: white;
+    text-align: center;
+    padding-top: 4vh;
+    border: 3px solid var(--color_gray);
+    border-radius: 50px;
+}
+main .reasons-items .reasons:nth-child(2){
+    padding-top: 120px;
+}
+main .reasons-items .reasons:nth-child(3){
+    padding-top: 240px;
+}
+main .search{
+    height: 500px;
+}
+main .search h1{
+    padding-top: 6vh;
+    text-align: center;
+    font-size: 30px;
+}
+main .search form{
+    justify-items: center;
+    padding-top: 4vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
