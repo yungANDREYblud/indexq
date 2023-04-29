@@ -35,7 +35,7 @@ header section .menu nav ul li:hover{
 main .safety{
     height: 800px;
     background-size: cover;
-    background-image: url(ferrari.png);
+    background: url(../img/ferrari.png);
 }
 main .safety h1{
     padding-top: 6vh;
